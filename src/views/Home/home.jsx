@@ -36,7 +36,7 @@ function Home() {
                         <div className="theme-circle-container"><Link to="/calendar" className="theme-circle" /></div>
                         <div className="theme-circle-container"><Link to="/calendar2" className="theme-circle" /></div>
                         <div className="theme-circle-container"><Link to="/calendar3" className="theme-circle" /></div>
-                        <div className="theme-circle-container"><Link to="/calendar4" className="theme-circle" /></div>
+{/*                         <div className="theme-circle-container"><Link to="/calendar4" className="theme-circle" /></div> */}
                     </div>
                 </div>
             </div>

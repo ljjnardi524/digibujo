@@ -70,7 +70,7 @@ function Calendar3() {
                                 <textarea
                                     value={note || ""}
                                     onChange={(e) => handleNoteChange(e.target.value)}
-                                    placeholder="Write a note..."
+//                                     placeholder="Write a note..."
                                     className="note-textarea"
                                 />
                              </>

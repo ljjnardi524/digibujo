@@ -136,7 +136,7 @@ function Calendar() {
                     </div>
 
                     <div className="days-container">
-                        <div className="days-part-left">
+                        <div className="days-part-left" style={{position: "relative", transform: "translateY(-60px)"}}>
                             {firstHalf.map(day => (
                                 <div key={day} className="day-container" onClick={() => { 
                                     setSelectedDay(day); console.log(day); 
