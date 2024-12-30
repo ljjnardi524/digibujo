@@ -1,0 +1,52 @@
+/* Day.css */
+.day-container {
+  text-align: center;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;  /* Esto asegura que el contenedor sea cuadrado */
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco para los días */
+  border-radius: 8px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  color: #333;
+  border: 2px solid #999;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el efecto */
+  transition: all 0.3s ease;
+}
+
+.day-container:hover {
+  background-color: rgba(255, 255, 255, 1); /* Cambia el color al pasar el mouse */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Más sombra */
+  transform: translateY(-5px); /* Levanta el cuadrado al hacer hover */
+}
+
+.day-container span {
+  display: block;
+  font-weight: bold;
+  font-size: 20px; /* Tamaño del número del día */
+}
+
+.day {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.day-note {
+  width: 80%;
+  font-size: 14px;
+  border: 1px dashed #7a7a7a;
+  border-radius: 4px;
+  resize: none;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.day-note:focus {
+  outline: none;
+  border-color: #3d3d3d;
+}

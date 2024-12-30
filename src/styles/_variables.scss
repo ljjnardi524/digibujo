@@ -1,0 +1,40 @@
+$color-base: #e5efba;
+$color-base-hover: #e5efba;
+$color-background: #fff3e5;
+
+/* Color Palette */
+$color-black: #000;
+$color-black-light: #33333b;
+$color-black-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+$color-black-text: #1e1e27;
+
+$color-blue-dark: #35425b;
+$color-blue-light: #599cdc;
+
+$color-gray: #7f7f7f;
+$color-gray-concrete: #f2f2f2;
+$color-gray-dark: #51545f;
+$color-gray-iron: #d3d3d6;
+$color-gray-light: #b5aec4;
+
+$color-green: #426886;
+$color-green-whatsapp: #426886;
+
+$color-pink-light: #fde0db;
+
+$color-red: #f00;
+
+$color-white: #fff;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+$font-family-title1: 'Dancing Script', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+$font-family-title2: 'Allura', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap');
+$font-family-description: 'Shadows Into Light', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+$font-family-description-crayon: 'Rock Salt', cursive;
