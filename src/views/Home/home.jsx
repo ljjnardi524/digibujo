@@ -26,7 +26,6 @@ function Home() {
                             onClick={() => handleItemClick(index)}
                         >
                             {item}
-                            <span className={`arrow ${activeIndex === index ? 'down' : ''}`}>&#9660;</span>
                         </div>
                     ))}
                 </div>
